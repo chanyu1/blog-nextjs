@@ -28,5 +28,6 @@ export async function sendEmail({ from, subject, message }: EmailData) {
       <p>from: ${from}</p>
     `,
   };
+
   return transporter.sendMail(mailData);
 }
