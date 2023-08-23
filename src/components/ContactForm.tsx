@@ -71,7 +71,7 @@ export default function ContactForm() {
           onChange={onChange}
         />
         <label className="font-semibold text-white" htmlFor="message">
-          Message
+          Message test
         </label>
         <textarea
           rows={10}
