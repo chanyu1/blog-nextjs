@@ -60,8 +60,7 @@ export default function ContactForm() {
           onChange={onChange}
         />
         <label className="font-semibold text-white" htmlFor="subject">
-          Subject testSubject test2222
-          Subject test2222
+          Subject test
         </label>
         <input
           type="text"
